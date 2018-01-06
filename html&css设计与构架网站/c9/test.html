@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>第9章 flash</title>
+		<!-- 利用google的js脚本 -->
+		<script type="text/javascript" src="http://ajax.gooleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+		<!-- .swf文件位置，替换的元素id，宽度，高度，可播放此影片的Flash播放器的最低版本Flash Player 8 -->
+		<script type="text/javascript">
+			swfobject.embedSWF("flash/bird.swf", "bird", "400", "300", "8.0.0");
+		</script>
+		<!-- .swf文件位置，替换的元素id，宽度，高度，可播放此影片的Flash播放器的最低版本Flash Player 8，flash的参数，具体的影片位置 -->
+		<!-- <script type="text/javascript">
+			var flashvars = {};
+			var params = {
+				movie:"../video/puppy.flv"
+			};
+			swfobject.embedSWF("flash/splayer.swf", "bird", "400", "300", "8.0.0", flashvars, params);
+		</script> -->
+	</head>
+	<body>
+		<div id="bird"><p>An animation of a bird taking a shower</p></div>
+	</body>
+</html>

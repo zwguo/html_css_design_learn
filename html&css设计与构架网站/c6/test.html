@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>第6章 表格</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<span>行标题：</span>
+		<table>
+			<tr>
+				<th></th>
+				<th>年份</th>
+				<th>费用</th>
+			</tr>
+			<tr>
+				<td></td>
+				<td>2015</td>
+				<td>30,000</td>
+			</tr>
+			<tr>
+				<th scope="col">支出</th>
+				<td>2016</td>
+				<td>30,000</td>
+			</tr>
+			<tr>
+				<th scope="col">收入</th>
+				<td>2016</td>
+				<td>40,000</td>
+			</tr>
+		</table>
+		<hr /><span>跨列：</span>
+		<table>
+			<tr>
+				<th></th>
+				<th>9pm</th>
+				<th>10am</th>
+				<th>11am</th>
+			</tr>
+			<tr>
+				<th scope="col">Monday</th>
+				<td>Geography</td>
+				<td>Math</td>
+				<td>Music</td>
+			</tr>
+			<tr>
+				<th scope="col">Tuesday</th>
+				<td colspan="2">Geography</td>
+				<td>Math</td>
+			</tr>
+			<tr>
+				<th scope="col">Sunday</th>
+				<td colspan="3">Gym</td>
+			</tr>
+		</table>
+		<hr /><span>跨行：</span>
+		<table>
+			<tr>
+				<th></th>
+				<th>ABC</th>
+				<th>BBC</th>
+			</tr>
+			<tr>
+				<th scope="col">6pm-7pm</th>
+				<td rowspan="2">Movie</td>
+				<td>Music</td>
+			</tr>
+			<tr>
+				<th scope="col">7pm-8pm</th>
+				<td>Comedy</td>
+			</tr>
+		</table>
+		<hr /><span>长表格：</span>
+		<table>
+			<thead>
+				<th>Date</th>
+				<th>Income</th>
+			</thead>
+			<tbody>
+				<tr>
+					<th>1st</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>2nd</th>
+					<td>2</td>
+				</tr>
+				<tr>
+					<th>3rd</th>
+					<td>3</td>
+				</tr>
+				<tr>
+					<th>4th</th>
+					<td>4</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td>10</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>

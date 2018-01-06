@@ -1,0 +1,41 @@
+body{
+	font-family: Georgia, Times, serif;
+}
+h1,h2{
+	font-family: Arial, Verdana, sans-serif;
+}
+.credits{
+	font-family: "Courier New", Courier, monospace;
+}
+.top{
+	vertical-align: top;
+}
+.middle{
+	vertical-align: middle;
+}
+.bottom{
+	vertical-align: bottom;
+}
+.baseline{
+	vertical-align: baseline;
+}
+.shadow{
+	text-shadow: 1px 1px 0px #000000;
+}
+.weilei :link{
+	color:deeppink;
+	text-decoration: none;
+}
+.weilei :visited{
+	color:black;
+}
+.weilei :hover{
+	text-transform: uppercase;
+}
+.weilei :focus{
+	color:red;
+}
+.weilei :active{
+	color:blue;
+	border:solid;
+}

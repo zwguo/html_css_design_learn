@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>第7章 表单</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<form action="#" method="post" id="form1">
+			<label for="textarea1">输入评论：</label><br/>
+			<textarea id="textarea1" name="comments" cols="20" rows="4">Enter your comments...</textarea>
+			<hr/>
+			<p>select your favorite genre：</p>
+			<input type="radio" name="genre" value="rock" />
+			<input type="radio" name="genre" value="pop" checked="true" />
+			<input type="radio" name="genre" value="jazz" />
+			<hr/>
+			<p>选择music服务提供商：</p>
+			<input type="checkbox" name="services" value="itunes" checked="true" />
+			<input type="checkbox" name="services" value="lastfm" checked="true" />
+			<input type="checkbox" name="services" value="spotify" checked="true" />
+			<input type="checkbox" name="services" value="yun" checked="true" />
+			<hr/>
+			<p>选择一个：</p>
+			<select name="devices">
+				<option value="ipod">ipod</option>
+				<option value="radio" selected="selected">radio</option>
+				<option value="computer">computer</option>
+			</select>
+			<hr/>
+			<p>选择多个：</p>
+			<select name="instruments" size="3" multiple="multiple">
+				<option value="ipod">ipod</option>
+				<option value="radio" selected="selected">radio</option>
+				<option value="computer">computer</option>
+				<option value="ipod2">ipod2</option>
+				<option value="radio2" selected="selected">radio2</option>
+				<option value="computer2">computer2</option>
+			</select>
+			<hr/>
+			<p>选择一个文件，记得method必须是post才能提交：</p>
+			<input type="file" name="file1" />
+			<input type="submit" value="submit"/>
+			<hr/>
+			<button>thisisabutton</button>
+			<input type="hidden" value="hiddenvalue" name="hiddenfield"/>
+			<hr />
+			<label>label标签可以把元素包起来：<input type="text" value="click the text" /></label>
+			<hr />
+			<fieldset>
+				<legend>Contact details</legend>
+				<label>Email:</label>
+				<input type="text" value="" />
+				<label>Address:</label>
+				<input type="text" value="" />
+				<label>Tel:</label>
+				<input type="text" value="" />
+			</fieldset>
+		</form>
+	</body>
+</html>
