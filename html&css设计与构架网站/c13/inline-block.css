@@ -1,0 +1,7 @@
+li{
+	display: inline;
+	margin-left:10px;
+}
+li.comming-soon{
+	display: none;
+}

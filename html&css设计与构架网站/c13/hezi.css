@@ -1,0 +1,44 @@
+#hezi div{
+	height: 300px;
+	width: 400px;
+	background-color: #ee3e80;
+}
+#hezi p{
+	height: 75%;
+	width: 75%;
+	background-color: #e1ddda;
+}
+#hezi.description{
+	min-width: 450px;
+	max-width: 650px;
+	text-align: left;
+	padding: 5px;
+	margin: 0px;
+}
+#hezi.widthsize{
+	min-width: 300px;
+	max-width: 800px;
+}
+#hezi.heightsize{
+	min-height: 30px;
+	max-height: 85px;
+}
+#hezi.phidden{
+	overflow: hidden;
+}
+#hezi.pscroll{
+	overflow: scroll;
+}
+/*border*/
+.border p{
+	border-style: solid;
+}
+.border .one{
+	border-width: 2px;
+}
+.border .two{
+	border-width: thick;
+}
+.border .three{
+	border-width: 1px 4px 12px 4px;
+}

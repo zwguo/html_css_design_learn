@@ -1,0 +1,11 @@
+body{
+	text-align: center;
+}
+p{
+	width: 300px;
+	border:2px solid red;
+}
+.center{
+	margin:10px auto 10px auto;
+	text-align: left;
+}

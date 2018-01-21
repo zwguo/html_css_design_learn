@@ -1,0 +1,45 @@
+.centerdiv{
+	margin-left:auto;
+	margin-right:auto;
+	width: 900px;
+	text-align: center;
+}
+p{
+	text-align: left;
+}
+img.large{
+	width: 500px;
+	height: 500px;
+}
+img.medium{
+	width: 250px;
+	height: 250px;
+}
+img.small{
+	width: 100px;
+	height: 100px;
+}
+img.align-left{
+	float:left;
+	margin-right: 10px;
+}
+img.align-right{
+	float: right;
+	margin-left:10px;
+	/*
+	position: relative;
+	top:0px;
+	right:10px;
+	display: block;*/
+}
+
+.margintop{
+	margin-top:250px;
+}
+img.align-center{
+	display: block;
+	margin:0px auto;
+}
+.hasborder{
+	border:1px solid;
+}

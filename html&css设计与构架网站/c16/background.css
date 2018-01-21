@@ -1,0 +1,6 @@
+body{
+	background-image:url('bingbkg.png');
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: 100px 400px
+}
